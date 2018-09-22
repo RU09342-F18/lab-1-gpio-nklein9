@@ -8,7 +8,7 @@ This program allows two onboard LEDs to blink simulaneously with different frequ
 
 ## Functionality
 
-The program sets up the two LEDs as I/O pins then sets them as an outputs. An infinite loop runs that sets LED1 to the on state if it's currently off or the off state if it's currently on. Each time LED1 switches state, an incrimenter keeps track until it's switched state three times where it begins an if state that switches the state of LED2. After LED2 has switched, the incrimenter resets and waits for the incrimenter again.
+The program sets up the two LEDs as I/O pins then sets them as outputs. An infinite loop runs that sets LED1 to the on state if it's currently off or the off state if it's currently on. Each time LED1 switches state, an incrimenter keeps track until it's switched state three times where it begins an if state that switches the state of LED2. After LED2 has switched, the incrimenter resets and waits for the incrimenter again.
 
 ## Board Differences
 
